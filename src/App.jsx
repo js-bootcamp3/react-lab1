@@ -17,8 +17,8 @@ function App() {
   return (
     <div className="container">
       <h1 className="title">{title}</h1>
-      <Button color='#5ff57d' onClick={handleOk}>Ok</Button>
-      <Button onClick={handleCancel}>Cancel</Button>
+      <Button size='small' color='#5ff57d' onClick={handleOk}>Ok</Button>
+      <Button size='big' onClick={handleCancel}>Cancel</Button>
 
       <ul className="names-wrapper">
         {names.map(name => {
